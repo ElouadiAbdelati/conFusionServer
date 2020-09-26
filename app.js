@@ -38,8 +38,8 @@ app.use(express.urlencoded({ extended: false }));
 
 //start users auth
 
-app.use(passport.initialize());
-app.use(passport.session());
+//app.use(passport.initialize());
+//app.use(passport.session());
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
